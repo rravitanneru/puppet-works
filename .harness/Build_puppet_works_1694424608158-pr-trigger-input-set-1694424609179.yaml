@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_puppet_works_1694424608158-pr-trigger-input-set
+  identifier: Build_puppet_works_1694424608158prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_puppet_works_1694424608158
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
