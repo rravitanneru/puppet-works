@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_puppet_works_1694424608158-push-trigger-input-set
+  identifier: Build_puppet_works_1694424608158pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_puppet_works_1694424608158
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
